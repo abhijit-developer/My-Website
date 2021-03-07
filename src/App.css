@@ -1,0 +1,101 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.skills-container{
+  display: block;
+  position: relative;
+  margin-top: 60px;
+  margin-bottom: 10px;
+}
+#segment1,#segment2,#segment3{
+margin: 15px;
+border-radius: 15px;
+}
+
+.about-me-div{
+  margin: 45px;
+}
+
+#about-me-segment1,#about-me-segment2{
+  border: 0px;
+  margin:15px;
+  box-shadow: 0 0px 0px 0;
+}
+
+#segment1:hover,#segment2:hover,#segment3:hover{
+  background-color:pink;
+  transition: 0.3s;
+  box-shadow: 7px 7px grey;
+}
+
+.ui.basic.label{
+  border: 0px !important;
+  background: none !important;
+}
+
+.contact-div, .my-skills-div{
+  background-color:gainsboro;
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+#linkedin,#facebook,#instagram,#github,#gmail{
+  width: 75px;
+  margin: 10px;
+  border-radius: 25px;
+}
+
+#about-me-segment2{
+  padding: 0px;
+}
+.copyrights-div{
+  margin: 40px;
+}
+
+.my-image-div{
+  padding: 60px;
+}
+
+.my-image{
+  border-radius: 150px;
+}
+
+.trans-effect:link{
+  transition-delay: 2s;
+}
+
