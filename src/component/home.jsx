@@ -1,5 +1,5 @@
 import { Component } from "react";
-import {Image, Label, Button, Icon} from 'semantic-ui-react'
+import {Image, Label, Button, Icon, Header} from 'semantic-ui-react'
 
 
 class home extends Component{
@@ -10,20 +10,16 @@ class home extends Component{
 
     render(){
         return(   
-            <div className="my-image-div">
-                <div>
-                    <Image className="my-image" src="/Images/Abhi.jpg" centered size="medium"></Image>
+            <div className="my-image-div" style={{minHeight:"inherit",position:"relative"}}>
+                <div style={{position:"relative", top:"200px"}}>
+                <Header id="font-class" as="h2" basic inverted >I'm Abhijit kadam</Header>
+                <Button basic size="massive" color='yellow'>
+                    Full Stack Developer
+                </Button>
                 </div>
-                <div>
-                    <Label basic size="massive">Abhijit Kadam</Label>
-                </div>
-                <div>
-                <Label basic size="huge">Full Stack Developer</Label>
-                </div>
-                <div>
-                    <Button color="" size="big">
-                        <a href="#about-me">Know more
-                            <Icon name="arrow right"></Icon>
+                <div style={{bottom:25,position:"absolute"}}>
+                    <Button basic color="orange" size="big">
+                        <a href="/Images/Back-Image4.jpg" download>Download My Resume
                         </a>
                     </Button>
                 </div>

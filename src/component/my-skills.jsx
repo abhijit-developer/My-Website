@@ -1,6 +1,6 @@
 import { Component } from "react";
-import {Segment,Grid,Icon,Label, Header} from 'semantic-ui-react'
-import { SiJava,SiSpring,SiJquery,SiMysql,SiPostgresql,SiJson} from 'react-icons/si';
+import {Segment,Grid,Icon,Label, Header, Divider} from 'semantic-ui-react'
+import { SiJava,SiSpring,SiJquery,SiMysql,SiPostgresql,SiJson,SiJira} from 'react-icons/si';
 import {BiCodeAlt} from 'react-icons/bi'
 
 class myskills extends Component{
@@ -12,13 +12,14 @@ class myskills extends Component{
     render(){
         return(   
             <div className="my-skills-div">
-                <div>
+                <div style={{margin:25}}>
                     <div style={{margin:15}}><Header as="h1">My Skills</Header></div>
+                    <Divider horizontal color="red">||</Divider>
                     <div><Label basic size="big">The only way to learn a new programming language is by writing programs in it - Dennis Ritchie</Label></div>
                 </div>
                 <div className="skills-container row">
                     <div>
-                        <Grid textAlign='center' verticalAlign='middle'>
+                        <Grid textAlign='center' verticalAlign='middle' style={{margin:0}}>
                             <Grid.Row>
                                 <Segment id="segment1" className="cs-lm-rm">
                                     <Icon  bordered inverted color='teal' name="laptop" size="huge"/>
@@ -56,22 +57,30 @@ class myskills extends Component{
                                         <Label basic>Hibernate|</Label>
                                         <Icon color="blue" name="file code outline"></Icon>
                                         <Label basic>Restfull web services</Label><br/>
+                                        <SiMysql color="teal"/>
+                                        <Label basic>My Sql |</Label>
+                                        <SiPostgresql color="blue"/>
+                                        <Label basic>postgress |</Label>
+                                        <Icon color="brown" name="opera"></Icon>
+                                        <Label basic>Oracle</Label><br/>
                                     </div>
                                 </Segment>
                                 <Segment id="segment3" className="cs-lm-rm">
                                     <Icon  bordered inverted color='teal' name="file code outline" size="huge"/>
                                     <div><Label basic size="huge">Other Tools and Technologies</Label></div>
                                     <div>
-                                    <Icon color="blue" name="copyright"></Icon>
-                                        <Label basic>c/c++|</Label>
-                                        <SiMysql color="teal"/>
-                                        <Label basic>My Sql |</Label>
-                                        <SiPostgresql color="blue"/>
-                                        <Label basic>postgress |</Label><br/>
+                                        <Icon color="red" name="aws"></Icon>
+                                        <Label basic>AWS |</Label>
+                                        <Icon color="blue" name="copyright"></Icon>
+                                        <Label basic>c/c++ |</Label>
                                         <BiCodeAlt color="orange" />
                                         <Label basic>XML|</Label>
                                         <SiJson color="DeepPink" />
-                                        <Label basic>JSON</Label>
+                                        <Label basic>JSON</Label><br/>
+                                        <SiJira color="blue"></SiJira>
+                                        <Label basic>Jira |</Label>
+                                        <Icon name="github"></Icon>
+                                        <Label basic>Git |</Label>
                                         <br/>
                                     </div>
                                 </Segment>

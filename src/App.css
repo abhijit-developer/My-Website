@@ -59,22 +59,29 @@ border-radius: 15px;
 }
 
 #segment1:hover,#segment2:hover,#segment3:hover{
-  background-color:pink;
+  background-color:aquamarine;
   transition: 0.3s;
   box-shadow: 7px 7px grey;
+}
+
+.ui.blue.massive.basic.label{
+  border: 0px !important;
+  background: none !important;
+  background-color: transparent;
 }
 
 .ui.basic.label{
   border: 0px !important;
   background: none !important;
+  background-color: transparent;
 }
 
 .contact-div, .my-skills-div{
   background-color:gainsboro;
-  padding-top: 45px;
-  padding-bottom: 45px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
-#linkedin,#facebook,#instagram,#github,#gmail{
+#linkedin,#facebook,#instagram,#github,#gmail,#hackerrank{
   width: 75px;
   margin: 10px;
   border-radius: 25px;
@@ -85,6 +92,14 @@ border-radius: 15px;
 }
 .copyrights-div{
   margin: 40px;
+}
+
+.location-div{
+  margin: 40px;
+  display: flex;
+}
+.email-div{
+  float: right;
 }
 
 .my-image-div{
@@ -99,3 +114,11 @@ border-radius: 15px;
   transition-delay: 2s;
 }
 
+.description.mg{
+  margin: 5px;
+}
+
+#font-class{
+  font-family:'Times New Roman', Times, serif;
+  font-style: italic;
+}

@@ -8,19 +8,19 @@ import home from './component/home';
 function App() {
   return (
     <div className="App">
-      <Menu pointing secondary>
+      <Menu inverted style={{margin:0}} fixed="true">
           <Menu.Item className="trans-effect" href="#home">Home</Menu.Item>
           <Menu.Item className="trans-effect" href="#skills">Skills</Menu.Item>
-          <Menu.Item className="trans-effect" href="#blogs">Blogs</Menu.Item>
           <Menu.Item className="trans-effect" href="#about-me">About me</Menu.Item>
           <Menu.Item className="trans-effect" href="#contact-me">Contact</Menu.Item>
       </Menu>
       <Routes>
       <div className="home-div" id="home"
       style={{
-        background: 'url(/Images/new_nature.jpg)  center no-repeat chocolate',
+        background: 'url(/Images/Back-Image4.jpg)  center no-repeat',
         backgroundRepeat: 'no-repeat',
-        backgroundSize:'cover'
+        backgroundSize:'cover',
+        minHeight: 670
         }}
       >
       <Route path="/" component={home}></Route>
@@ -34,10 +34,6 @@ function App() {
       <Route path="/" component={aboutme}></Route>
       </div>
       
-      <div className="blogs-div" id="blogs">
-
-      </div>
-
       <div className="contact-me-div" id="contact-me">
         <Route path="/" component={contactme}></Route>  
       </div>
