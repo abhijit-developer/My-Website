@@ -11,9 +11,9 @@ class myskills extends Component{
 
     render(){
         return(   
-            <div className="my-skills">
-                <div>
-                    <div style={{margin:15}}><Header as="h1" style={{borderBottom: '3px solid red',width:'fit-content'}}>My Skills</Header></div>
+            <div className="my-skills-div">
+                <div style={{margin:25}}>
+                    <div style={{margin:15}}><Header as="h1">My Skills</Header></div>
                     <Divider horizontal color="red">||</Divider>
                     <div><Label basic size="big">The only way to learn a new programming language is by writing programs in it - Dennis Ritchie</Label></div>
                 </div>

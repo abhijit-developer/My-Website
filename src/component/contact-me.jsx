@@ -13,9 +13,9 @@ class contactme extends Component{
 
     render(){
         return(   
-            <div  className="contact-me">
-                <div>
-                    <Header inverted as="h1" style={{marginBottom:25,borderBottom: '3px solid red',width:'fit-content'}}>Contact</Header>
+            <div  className="contact-div">
+                <div style={{margin:15}}>
+                    <Header as="h1" style={{marginBottom:25}}>Contact</Header>
                     <Divider horizontal color="red">||</Divider>
                 </div>
                 <div>
@@ -69,16 +69,16 @@ class contactme extends Component{
                     <div className="copyrights-div">
                     <Grid textAlign='center' verticalAlign='middle'>
                         <Grid.Row>
-                            <div style={{margin:10}}>
+                            <div>
                                 <a href="https://www.google.com/maps/place/Viman+Nagar,+Pune,+Maharashtra+411014/@18.5675985,73.9117567,16z/data=!4m13!1m7!3m6!1s0x3bc2c146e61484b5:0xb6482cf7a8b4b3b0!2sViman+Nagar,+Pune,+Maharashtra+411014!3b1!8m2!3d18.5679146!4d73.9143432!3m4!1s0x3bc2c146e61484b5:0xb6482cf7a8b4b3b0!8m2!3d18.5679146!4d73.9143432">
                                     <ImLocation2 size='30' color="red"></ImLocation2>    
                                 </a><br></br>
-                                <Header basic inverted as="h4">Pune,Maharashtra,India</Header>
+                                <Label basic size="huge">Pune,Maharashtra,India</Label>
                                 
                             </div>
-                            <div style={{margin:10}}>
+                            <div>
                                 <AiOutlineMail size='30' color="red"></AiOutlineMail><br></br>
-                                <Header basic inverted as="h4">kadamabhijit965@gmail.com</Header>    
+                                <Label basic size="huge">kadamabhijit965@gmail.com</Label>    
                             </div>
                         </Grid.Row>
                     </Grid>

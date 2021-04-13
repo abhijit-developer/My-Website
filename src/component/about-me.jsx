@@ -12,9 +12,9 @@ class aboutme extends Component{
 
     render(){
         return(   
-            <div className="about-me">
+            <div>
                 <div>
-                    <Header as="h1" style={{borderBottom: '3px solid red',width:'fit-content'}}>About me</Header>
+                    <Header as="h1">About me</Header>
                     <Divider horizontal color="red">||</Divider>
                 </div>
                 <Grid textAlign='center' verticalAlign='middle'>
