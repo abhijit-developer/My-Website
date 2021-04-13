@@ -48,7 +48,7 @@ margin: 15px;
 border-radius: 15px;
 }
 
-.about-me-div{
+.about-me, .project-div, .my-skills, .contact-me{
   margin: 45px;
 }
 
@@ -76,11 +76,18 @@ border-radius: 15px;
   background-color: transparent;
 }
 
-.contact-div, .my-skills-div{
+.my-skills-div{
   background-color:gainsboro;
   padding-top: 30px;
   padding-bottom: 30px;
 }
+
+.contact-me-div{
+  background-color: black;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 #linkedin,#facebook,#instagram,#github,#gmail,#hackerrank{
   width: 75px;
   margin: 10px;
@@ -121,4 +128,8 @@ border-radius: 15px;
 #font-class{
   font-family:'Times New Roman', Times, serif;
   font-style: italic;
+}
+
+.footer-company-name{
+ color: white;
 }

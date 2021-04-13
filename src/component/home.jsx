@@ -13,9 +13,9 @@ class home extends Component{
             <div className="my-image-div" style={{minHeight:"inherit",position:"relative"}}>
                 <div style={{position:"relative", top:"200px"}}>
                 <Header id="font-class" as="h2" basic inverted >I'm Abhijit kadam</Header>
-                <Button basic size="massive" color='yellow'>
+                <Header basic inverted as="h1" color='yellow'>
                     Full Stack Developer
-                </Button>
+                </Header>
                 </div>
                 <div style={{bottom:25,position:"absolute"}}>
                     <Button basic color="orange" size="big">
