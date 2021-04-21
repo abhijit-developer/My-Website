@@ -34,14 +34,6 @@ class contactme extends Component{
                         </a>
                     </Button>
                     } />
-                    <Popup content='Instagram'
-                        trigger={
-                        <Button primary id="instagram" color="blue" size="medium">
-                            <a href="https://github.com/abhijit-developer">
-                                <Icon name="instagram" color="black" size="big"></Icon>
-                            </a>
-                        </Button>
-                    } />
                     <Popup content='Github'
                         trigger={
                         <Button primary id="github" color="blue" size="medium">

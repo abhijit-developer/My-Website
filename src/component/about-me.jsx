@@ -100,7 +100,7 @@ class aboutme extends Component{
                 </Grid>
                 <Label basic size="massive" >For more Information </Label>
                 <Button basic color="orange" size="big">
-                        <a href="/Images/Back-Image4.jpg" download>Download My Resume
+                        <a href="/resume/AbhiK-resume-1+YOE.pdf" download>Download My Resume
                         </a>
                 </Button>
             </div>

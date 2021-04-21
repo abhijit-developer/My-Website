@@ -19,7 +19,7 @@ class home extends Component{
                 </div>
                 <div style={{bottom:25,position:"absolute"}}>
                     <Button basic color="orange" size="big">
-                        <a href="/Images/Back-Image4.jpg" download>Download My Resume
+                        <a href="/resume/AbhiK-resume-1+YOE.pdf" download>Download My Resume
                         </a>
                     </Button>
                 </div>
