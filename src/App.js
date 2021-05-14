@@ -7,7 +7,7 @@ import aboutme from './component/about-me';
 import home from './component/home';
 function App() {
   return (
-    <div className="App">
+    <div className="App" style={{height:"100%"}}>
       <Menu inverted style={{margin:0}} fixed="true">
           <Menu.Item className="trans-effect" href="#home">Home</Menu.Item>
           <Menu.Item className="trans-effect" href="#skills">Skills</Menu.Item>
@@ -17,10 +17,10 @@ function App() {
       <Routes>
       <div className="home-div" id="home"
       style={{
+        height:"100%",
         background: 'url(/Images/Back-Image4.jpg)  center no-repeat',
         backgroundRepeat: 'no-repeat',
         backgroundSize:'cover',
-        minHeight: 670
         }}
       >
       <Route path="/" component={home}></Route>

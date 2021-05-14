@@ -10,8 +10,8 @@ class home extends Component{
 
     render(){
         return(   
-            <div className="my-image-div" style={{minHeight:"inherit",position:"relative"}}>
-                <div style={{position:"relative", top:"200px"}}>
+            <div className="my-image-div" style={{height:"100%",position:"relative"}}>
+                <div style={{position:"relative"}}>
                 <Header id="font-class" as="h2" basic inverted >I'm Abhijit kadam</Header>
                 <Button basic size="massive" color='yellow'>
                     Full Stack Developer
