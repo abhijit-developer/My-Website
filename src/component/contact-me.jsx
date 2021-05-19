@@ -76,7 +76,7 @@ class contactme extends Component{
                     </Grid>
                     
                     </div>
-                    <div className="copyrights-div" >
+                    <div className="copyrights-div">
                         <div class="container">
                             <div class="footer-distributed">
                                 <div class="footer-left">

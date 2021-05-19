@@ -99,7 +99,7 @@ class aboutme extends Component{
                     </Grid.Row>
                 </Grid>
                 <Label basic size="massive" >For more Information </Label>
-                <Button basic color="orange" size="big">
+                <Button basic color="orange" size="big" style={{borderRadius:"40px"}}>
                         <a href="/resume/AbhiK-resume-1+YOE.pdf" download>Download My Resume
                         </a>
                 </Button>

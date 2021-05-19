@@ -12,13 +12,13 @@ class home extends Component{
         return(   
             <div className="my-image-div" style={{height:"100%",position:"relative"}}>
                 <div style={{position:"relative"}}>
-                <Header id="font-class" as="h2" basic inverted >I'm Abhijit kadam</Header>
-                <Button basic size="massive" color='yellow'>
+                <Header id="font-class" as="h2" basic inverted >I'm Abhijit kadam </Header>
+                <Header id="font-class" basic as="h2" color='yellow'basic inverted>
                     Full Stack Developer
-                </Button>
+                </Header>
                 </div>
                 <div style={{bottom:25,position:"absolute"}}>
-                    <Button basic color="orange" size="big">
+                    <Button basic color="orange" size="big" style={{borderRadius:"50px"}}>
                         <a href="/resume/AbhiK-resume-1+YOE.pdf" download>Download My Resume
                         </a>
                     </Button>

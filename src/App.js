@@ -8,7 +8,7 @@ import home from './component/home';
 function App() {
   return (
     <div className="App" style={{height:"100%"}}>
-      <Menu inverted style={{margin:0}} fixed="true">
+      <Menu secondary inverted color="teal" style={{margin:0}} fixed="true">
           <Menu.Item className="trans-effect" href="#home">Home</Menu.Item>
           <Menu.Item className="trans-effect" href="#skills">Skills</Menu.Item>
           <Menu.Item className="trans-effect" href="#about-me">About me</Menu.Item>
